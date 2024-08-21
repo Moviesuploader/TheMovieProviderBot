@@ -31,8 +31,8 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/584cd1420a1aaacd92e22.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'link2paisa.com'))
-STREAM_API = (environ.get('STREAM_API', 'fb36d49553dbf50089557d89df1ae468c7578db2'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'runurl.in'))
+STREAM_API = (environ.get('STREAM_API', '6187fd351ac36f6449f18294d68bba8dec1d7d04'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/beautyofthemovie/5'))
 
 # Admins, Channels & Users
@@ -61,8 +61,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/beautyofthemovie/5') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'link2paisa.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'fb36d49553dbf50089557d89df1ae468c7578db2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'runurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6187fd351ac36f6449f18294d68bba8dec1d7d04')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
