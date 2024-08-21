@@ -33,7 +33,7 @@ REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10e
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'runurl.in'))
 STREAM_API = (environ.get('STREAM_API', '6187fd351ac36f6449f18294d68bba8dec1d7d04'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/beautyofthemovie/5'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/beautyofthemovie/6'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -58,7 +58,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/beautyofthemovie/5') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/beautyofthemovie/6') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'runurl.in')
